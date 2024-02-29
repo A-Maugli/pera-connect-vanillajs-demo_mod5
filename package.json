@@ -1,0 +1,24 @@
+{
+  "name": "perawallet-connect-vanillajs-demo",
+  "version": "1.0.0",
+  "description": "Pera WalletConnect demo on Algorand Testnet",
+  "scripts": {
+    "start": "parcel serve ./src/index.html --open --dist-dir ./dist/bundled_noopt",
+    "build": "parcel build ./src/index.html --no-scope-hoist --dist-dir ./dist/bundled && serve ./dist/bundled",
+    "clean": "rm -rf ./.parcel-cache ./dist ./node_modules ./package-lock.json"
+  },
+  "dependencies": {
+    "@perawallet/connect": "^1.3.4",
+    "algosdk": "^2.7.0",
+    "jquery": "^3.7.1",
+    "parcel": "^2.11.0"
+  },
+  "keywords": [
+    "@perawallet/connect",
+    "Algorand Testnet",
+    "parcel v2"
+  ],
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}

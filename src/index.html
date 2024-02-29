@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pera WalletConnect demo on Algorand Testnet</title>
+  <meta charset="UTF-8">
+  <style>
+    div.c1 {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+  </style>
+  <script type="module" src="./pera_walletconnect_demo.js"></script>
+</head>
+
+<body>
+  <h2>Pera WalletConnect demo on Algorand Testnet</h2>
+  <p>
+    Using this demo, you can send 0.001 Algo on Algorand Testnet to the "sink" address<br/>
+    Y76M3MSY6DKBRHBL7C3NNDXGS5IIMQVQVUAB6MP4XEMMGVF2QWNPL226CA. <br/>
+    The used REST API provider is https://testnet-api.algonode.cloud. 
+  </p>
+  <p>
+    First, press button "Connect to Pera Wallet", and choose "Connect to mobile". <br/>
+    Then touch the "Scan QR" on your mobile Pera Wallet app, scan the QR code, <br />
+    and choose an account. Finally press the "Connect" on your mobile app.
+  </p>
+  <p>
+    Then, press button "Make payment using Pera Wallet". After some seconds, the payment to do <br/>
+    appears on your mobile phone. You can press "Confirm" to sign (and send) the transaction, <br/>
+    or "Cancel" to abort the signing of the transaction.
+  </p>
+  <p>
+    Finally, press button "Disconnect from Pera Wallet" to delete the WalletConnect session <br/>
+    on your mobile Pera Wallet app.
+  </p>
+  <div class="c1">
+    <button id="connect_pera_wallet">Connect to Pera Wallet</button>
+  </div>
+  <div class="c1">
+    <button id="disconnect_pera_wallet">Disconnect from Pera Wallet</button>
+  </div>
+  <div class="c1">
+    <button id="make_payment_pera_wallet">Make payment using Pera Wallet</button>
+  </div>
+  <p aria-label="Status of last command" id="wallet_connect_status">Status: </p>
+  <p aria-label="Optional error message" id="wallet_connect_error">Error: </p>
+</body>
+
+</html>
