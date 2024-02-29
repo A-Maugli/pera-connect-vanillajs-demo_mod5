@@ -5,31 +5,46 @@ Environment: Node.js v20.9.0
 
 npm install	# to install node_modules
 
-Scripts:
+## Scripts:
 
 npm run start	# to pack files immediately, start web server
+
 npm run build	# to build packed files, and after that start a web server
+
 npm run clean	# to delete the files created by npm install, npm run start, npm run build
+
 du -sh .	# disk usage, summary, human readable, for the current directory
+
 hexdump -C fname # hex dump with characters a file 
 
-Issue: 
-  error message after "npm run build", "Error: Expected content key c60a9ec6d268c542 to exist"
+## Issues during development
+
+### Issue: 
+
+error message after "npm run build", "Error: Expected content key c60a9ec6d268c542 to exist"
+
 Solution: 
-  rm .parcel-cache and reexecute "npm run build"
 
-Issue:
-  npm run build	# parcel build, bundled files give reference error 
+rm .parcel-cache and reexecute "npm run build"
+
+### Issue:
+
+npm run build	# parcel build, bundled files give reference error 
+
 Solution:
- add --no-scope-hoist
 
-Issue:
-  Uncaught (in promise) Error: Missing or invalid topic field
-  It happens when a WelletConnect session is deleted on the mobile.
+add --no-scope-hoist
+
+### Issue:
+
+Uncaught (in promise) Error: Missing or invalid topic field
+It happens when a WelletConnect session is deleted on the mobile.
+
 Solution:
-  perawallet.connector is null in this case, so check its value.
 
-References:
+perawallet.connector is null in this case, so check its value.
+
+## References:
 
 https://docs.perawallet.app/references/pera-connect
   Pera Connect, JavaScript SDK for integrating Pera Wallet to web applications
