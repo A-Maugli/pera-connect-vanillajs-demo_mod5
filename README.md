@@ -48,38 +48,35 @@ perawallet.connector is null in this case, so check its value.
 
 ## References:
 
-https://docs.perawallet.app/references/pera-connect
-  # Pera Connect, JavaScript SDK for integrating Pera Wallet to web applications
+Pera Connect, JavaScript SDK for integrating Pera Wallet to web applications, 
+https://docs.perawallet.app/references/pera-connect 
 
-https://github.com/perawallet/connect/blob/main/README.md
-  # @perawallet/connect
-  # JavaScript SDK for integrating Pera Wallet to web applications. 
+@perawallet/connect, JavaScript SDK for integrating Pera Wallet to web applications, 
+https://github.com/perawallet/connect/blob/main/README.md 
 
-https://codesandbox.io/p/sandbox/perawallet-connect-vanillajs-demo-s5pjeo?file=%2Fsrc%2Findex.js
-  # @perawallet/connect VanillaJS Demo
+@perawallet/connect VanillaJS Demo, 
+https://codesandbox.io/p/sandbox/perawallet-connect-vanillajs-demo-s5pjeo?file=%2Fsrc%2Findex.js 
 
+Parcel, 
 https://parceljs.org
-  # Parcel
 
+Parcel documentation, 
 https://parceljs.org/docs/
-  # Parcel documentation
 
-https://github.com/parcel-bundler/parcel/issues/6711
-  # Uncaught ReferenceError after Parcel v2 build command #6711
-  # "--no-scope-hoist argument fixed my issue, but Parcel v2 docs does not clarify why I should use it."
+Uncaught ReferenceError after Parcel v2 build command #6711, 
+https://github.com/parcel-bundler/parcel/issues/6711 # 
 
+parceljs CLI, 
 https://parceljs.org/features/cli/#parameters-specific-to-build
-  # parceljs CLI
 
+How-to Use ‘hexdump’,
 https://ioflood.com/blog/hexdump-linux-command/#:~:text=The%20hexdump%20command%20in%20Linux%20is%20used%20to%20display%20the,%5Boption%5D%20%5Bfilename_or_string%5D%20.
-  # How-to Use ‘hexdump’ | Linux File Inspection Guide
-  # Posted in Bash, Linux, Systems Administration By Gabriel Ramuglia On December 12, 2023
 
+How to Get the Size of a Directory in Linux, 
 https://linuxize.com/post/how-get-size-of-file-directory-linux/
-  # How to Get the Size of a Directory in Linux
 
+"Error: Expected content key de1e4a02ec63c4eb to exist", 
 https://stackoverflow.com/questions/77166144/error-expected-content-key-de1e4a02ec63c4eb-to-exist-getting-this-error-in-reac
-  # "Error: Expected content key de1e4a02ec63c4eb to exist"
 
+Optional chaining (?.),
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining
-  # Optional chaining (?.)
